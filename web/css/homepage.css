@@ -1,0 +1,94 @@
+/******************************************************************************
+  font-family: HK Grotesk;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  height: 2.75rem;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
+
+STARBUCKs GREEN LOL background: #329814;
+******************************************************************************/
+
+body {
+  background: #0f0f0f;
+}
+
+#Multibar {
+  position:absolute;
+  width:100%;
+  height:5%;
+  background-color: #1F1F1F;
+  top:0px;
+  left:-2px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#title {
+  width: 10%;
+  margin-left: 45%;
+  margin-top:5%;
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
+}
+
+#logotxt {
+  color: #F0F0F0;
+  font-family: Fantasy;
+  text-align: center;
+  font-size: 32px;
+  margin-top:0px;
+}
+
+#Border {
+  left: -2px;
+  position: absolute;
+  margin-left:25%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(45deg, #03e9f4, #6800ff, #2d8dff);
+  background-size: 400%;
+  box-shadow: 0 0 50px #6800ff, 0 0 75px #2d8dff, 0 0 100px #03e9f4;
+  animation: shadow 20s linear infinite;
+  border-radius: 15px 15px 0px 0px;
+}
+#Webbody {
+  position: absolute;
+  margin-top: 1%;
+  margin-left:1%;
+  width: 98%;
+  height: 99.5%;
+  background-color:#0f0f0f;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@keyframes shadow {
+  0% {
+    background-position: 0 0;
+  }
+  50.01% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
